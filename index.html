@@ -840,11 +840,11 @@ const I18N={
  vi:{appName:"공정한 즐거움",tagline:"Du lịch di sản từ ga Osong và sân bay Cheongju",welcome:"Chào mừng bạn đến Chungbuk!",hubQ:"Bạn đến từ đâu? Chúng tôi sẽ gợi ý các điểm gần nhất trước.",osong:"Ga Osong",osongSub:"KTX·SRT",airport:"Sân bay QT Cheongju",airportSub:"CJJ",recTitle:"Gợi ý dành cho bạn",interestQ:"Chọn điều bạn quan tâm (chọn nhiều được)",int_history:"Lịch sử",int_nature:"Thiên nhiên",int_photo:"Chụp ảnh",int_walk:"Đi dạo",int_kids:"Đi cùng trẻ em",why:"Phù hợp sở thích: {t}",whyNear:"Gần nơi bạn đến",km:"Cách {hub} khoảng {km} km (đường chim bay)",passport:"Hộ chiếu di sản của tôi",stampsOf:"Con dấu {n} / {t}",howPoints:"Chụp AR +100P · Ghép xong lần đầu +50P (lần sau +10P) · Trả lời đúng +20P",rank0:"Lữ khách mới",rank1:"Nhà thám hiểm Chungbuk",rank2:"Người gìn giữ di sản",rank3:"Đại sứ danh dự Chungbuk",toNext:"Còn {n}P để lên cấp",maxRank:"Đã đạt cấp cao nhất!",teaserT:"Trò ghép hình di sản hôm nay",teaserD:"Ghép lại bức tranh trên đường đi. Ghép xong sẽ được nghe câu chuyện.",play:"Bắt đầu ghép hình",placesTitle:"Di sản văn hóa Chungbuk",placesSub:"Chạm vào thẻ để xem giới thiệu và nghe thuyết minh",collected:"Đã đóng dấu",listen:"Nghe câu chuyện",stop:"Dừng",toPuzzle:"Chơi ghép hình",toAR:"Nhận dấu AR",close:"Đóng",noVoice:"Thiết bị không có giọng đọc cho ngôn ngữ này, sẽ dùng giọng mặc định.",noTTS:"Trình duyệt này không hỗ trợ đọc văn bản.",puzzleTitle:"Ghép hình di sản",puzzleHelp:"Chạm lần lượt vào hai mảnh để đổi chỗ. Ghép giống bức tranh bên phải.",moves:"Lượt",time:"Thời gian",size:"Độ khó",shuffle:"Xáo trộn",solvedFirst:"Hoàn thành! Lần đầu ghép {name}: +50P",solvedAgain:"Hoàn thành! +10P",listenStory:"Nghe câu chuyện",again:"Ghép hình khác",arTitle:"Đóng dấu di sản bằng AR",arHelp:"Chụp ảnh di sản tại chỗ để xem thông tin hiện trên màn hình, nhận con dấu và 100P.",arStart:"Chọn nhiệm vụ bên phải rồi bật camera.",openCam:"Bật camera",takePhoto:"Chụp ảnh",useCamApp:"Chụp & tải ảnh lên",chooseMission:"Chọn di sản để chụp",arDone:"Nhận dấu {name}! +100P",arAlready:"Bạn đã có con dấu này rồi. Ảnh đẹp quá!",camFail:"Màn hình này không dùng được camera trực tiếp. Nhấn 'Chụp & tải ảnh lên' để chụp bằng camera điện thoại.",arHint:"Đưa di sản vào trong khung rồi chụp.",quizTitle:"Câu đố di sản Chungbuk",quizIntro:"Thử sức với 5 câu hỏi ngẫu nhiên. Mỗi câu đúng được 20P!",start:"Bắt đầu",next:"Câu tiếp theo",finish:"Xem kết quả",correct:"Chính xác! +20P",wrong:"Tiếc quá. Đáp án là '{a}'",result:"Bạn đúng {n} / 5 câu!",retry:"Chơi lại",qOf:"Câu {i} / 5",learnMore:"Xem di sản này",nav_home:"Trang chủ",nav_places:"Di sản",nav_puzzle:"Ghép hình",nav_ar:"Chụp AR",nav_quiz:"Câu đố",nearest:"Gần {hub} nhất trước"}
 };
 // AI 장소 인증 문구
-Object.assign(I18N.ko,{arChecking:"AI가 장소 사진을 확인하고 있어요…",arRetry:"{name}의 모습과 달라 보여요. 장소가 화면에 잘 보이도록 다시 찍어 주세요.",arRetryShort:"다시 인증해 주세요",arAiOff:"(AI 확인을 할 수 없어 인증을 그대로 처리했어요)"});
-Object.assign(I18N.en,{arChecking:"AI is checking your photo…",arRetry:"This doesn't look like {name}. Please retake the photo with the site clearly in frame.",arRetryShort:"Please try again",arAiOff:"(AI check unavailable, so the stamp was given anyway)"});
-Object.assign(I18N.zh,{arChecking:"AI正在确认照片…",arRetry:"这张照片看起来不像{name}。请让景点完整出现在画面中后重新拍摄。",arRetryShort:"请重新认证",arAiOff:"(无法进行AI确认,已直接完成认证)"});
-Object.assign(I18N.ja,{arChecking:"AIが写真を確認しています…",arRetry:"{name}とは違うようです。スポットが画面にしっかり入るように撮り直してください。",arRetryShort:"もう一度認証してください",arAiOff:"(AI確認ができなかったため、そのまま認証しました)"});
-Object.assign(I18N.vi,{arChecking:"AI đang kiểm tra ảnh…",arRetry:"Ảnh này có vẻ không phải {name}. Hãy chụp lại sao cho địa điểm hiện rõ trong khung.",arRetryShort:"Vui lòng xác thực lại",arAiOff:"(Không kiểm tra AI được nên đã xác nhận luôn)"});
+Object.assign(I18N.ko,{arWrongPlace:"{other} 사진으로 보여요. 지금 미션 장소({name})를 다시 찍어 주세요.",arChecking:"AI가 장소 사진을 확인하고 있어요…",arRetry:"{name}의 모습과 달라 보여요. 장소가 화면에 잘 보이도록 다시 찍어 주세요.",arRetryShort:"다시 인증해 주세요",arAiOff:"(AI 확인을 할 수 없어 인증을 그대로 처리했어요)"});
+Object.assign(I18N.en,{arWrongPlace:"This looks like {other}, not {name}. Please retake the photo at {name}.",arChecking:"AI is checking your photo…",arRetry:"This doesn't look like {name}. Please retake the photo with the site clearly in frame.",arRetryShort:"Please try again",arAiOff:"(AI check unavailable, so the stamp was given anyway)"});
+Object.assign(I18N.zh,{arWrongPlace:"这张照片看起来像{other},而不是{name}。请在{name}重新拍摄。",arChecking:"AI正在确认照片…",arRetry:"这张照片看起来不像{name}。请让景点完整出现在画面中后重新拍摄。",arRetryShort:"请重新认证",arAiOff:"(无法进行AI确认,已直接完成认证)"});
+Object.assign(I18N.ja,{arWrongPlace:"この写真は{name}ではなく{other}のようです。{name}で撮り直してください。",arChecking:"AIが写真を確認しています…",arRetry:"{name}とは違うようです。スポットが画面にしっかり入るように撮り直してください。",arRetryShort:"もう一度認証してください",arAiOff:"(AI確認ができなかったため、そのまま認証しました)"});
+Object.assign(I18N.vi,{arWrongPlace:"Ảnh này trông giống {other}, không phải {name}. Hãy chụp lại tại {name}.",arChecking:"AI đang kiểm tra ảnh…",arRetry:"Ảnh này có vẻ không phải {name}. Hãy chụp lại sao cho địa điểm hiện rõ trong khung.",arRetryShort:"Vui lòng xác thực lại",arAiOff:"(Không kiểm tra AI được nên đã xác nhận luôn)"});
 Object.assign(I18N.ko,{"expedition": "충북 문화유산 탐험대", "adventureTitle": "충북의 보물을\n찾으러 떠나요!", "adventureDesc": "여행하며 이야기를 만나고, 미션을 해결해 나만의 탐험 여권을 완성해 보세요.", "exploreNow": "탐험 시작하기", "treasureMap": "문화유산 보물지도", "mapNote": "탐험 콘셉트 지도 · 실제 위치와 다름", "missionTitle": "오늘의 탐험 미션", "missionHint": "미션을 완료하고 포인트를 모아요!", "missionPuzzle": "보물 조각 맞추기", "missionPuzzleSub": "그림 퍼즐 완성", "missionQuiz": "역사 퀴즈 도전", "missionQuizSub": "정답 한 개마다", "missionAR": "AR 보물 인증", "missionARSub": "현장 사진 도장", "allPlaces": "전체 문화유산 →"});
 Object.assign(I18N.en,{"expedition": "CHUNGBUK HERITAGE QUEST", "adventureTitle": "Let’s discover\nChungbuk’s treasures!", "adventureDesc": "Find stories, complete missions and fill your own heritage passport as you travel.", "exploreNow": "Start exploring", "treasureMap": "Heritage treasure map", "mapNote": "Illustrated map · not actual locations", "missionTitle": "Today’s quests", "missionHint": "Complete missions and collect points!", "missionPuzzle": "Puzzle quest", "missionPuzzleSub": "Complete a picture puzzle", "missionQuiz": "History quiz", "missionQuizSub": "For each correct answer", "missionAR": "AR treasure stamp", "missionARSub": "Take an on-site photo", "allPlaces": "All sites →"});
 Object.assign(I18N.zh,{"expedition": "忠北文化遗产探险队", "adventureTitle": "一起寻找\n忠北的宝藏！", "adventureDesc": "旅行中听故事、完成任务，收集属于自己的文化遗产护照。", "exploreNow": "开始探险", "treasureMap": "文化遗产藏宝图", "mapNote": "示意图 · 非实际位置", "missionTitle": "今日探险任务", "missionHint": "完成任务并收集积分！", "missionPuzzle": "宝藏拼图", "missionPuzzleSub": "完成图片拼图", "missionQuiz": "历史问答", "missionQuizSub": "每答对一题", "missionAR": "AR 宝藏认证", "missionARSub": "现场拍照盖章", "allPlaces": "全部景点 →"});
@@ -1129,9 +1129,14 @@ function showResult(cv){
 }
 /* ---------- AI 장소 인증: 기준 사진과 촬영 사진의 이미지 유사도 비교 ---------- */
 // 통과 기준(코사인 유사도). 높이면 엄격, 낮추면 관대해집니다.
-// 테스트 결과(기준 사진 13장, 자기 자신 제외 비교):
-//  같은 장소·다른 각도 0.38~0.72 (대부분 0.43 이상) / 비슷한 한옥 건물인 다른 장소 최대 0.49 / 무관한 사진 0.32 이하
+// 판정 규칙 (둘 다 만족해야 통과)
+//  1) 선택한 장소와의 유사도 ≥ MATCH_THRESHOLD
+//  2) 선택한 장소가 다른 장소보다 MATCH_MARGIN 이상 더 비슷해야 함 (청남대 미션에 신채호사당 사진 → 실패)
+// 인쇄물 촬영 시뮬레이션 테스트(40장): 정답 28/28 통과(최저 0.44), 다른 장소 0/56, 무관한 사진 0/36 (최고 0.39)
 const MATCH_THRESHOLD=0.42;
+const MATCH_MARGIN=0.05;
+// 인쇄물·화면을 찍은 사진도 알아보도록 기준 사진을 흑백/흐림 버전으로도 비교
+const REF_FILTERS=["none","grayscale(1) contrast(1.2)","grayscale(1) contrast(0.9) brightness(1.15) blur(1px)","saturate(0.6) contrast(0.9) brightness(1.1) blur(1px)"];
 const MP_VER="0.10.14";
 const MP_MODEL="https://storage.googleapis.com/mediapipe-models/image_embedder/mobilenet_v3_small/float32/1/mobilenet_v3_small.tflite";
 const verifier={embedder:null,loading:null,mp:null,refs:{}};
@@ -1151,33 +1156,46 @@ const refList=p=>p.refs&&p.refs.length?p.refs:[p.photo,p.photoSq].filter(Boolean
 function toCanvas(src,w,h,max=512){const s=Math.min(1,max/Math.max(w,h)),cv=document.createElement("canvas");cv.width=Math.round(w*s);cv.height=Math.round(h*s);cv.getContext("2d").drawImage(src,0,0,cv.width,cv.height);return cv}
 // 가운데 정사각형 + 전체 이미지 두 가지로 임베딩(구도 차이에 덜 민감하게)
 function views(cv){const m=Math.min(cv.width,cv.height),sq=document.createElement("canvas");sq.width=sq.height=m;sq.getContext("2d").drawImage(cv,(cv.width-m)/2,(cv.height-m)/2,m,m,0,0,m,m);return [cv,sq]}
+// 촬영 사진: 전체·가운데 정사각형·가운데 80%·62% (종이 여백, 책상 등 주변을 덜어내고 비교)
+function shotViews(cv){const out=views(cv);for(const k of [0.8,0.62]){const w=cv.width*k,h=cv.height*k,c=document.createElement("canvas");c.width=Math.round(w);c.height=Math.round(h);c.getContext("2d").drawImage(cv,(cv.width-w)/2,(cv.height-h)/2,w,h,0,0,c.width,c.height);out.push(c)}return out}
+function filtered(cv,f){if(f==="none")return cv;const c=document.createElement("canvas");c.width=cv.width;c.height=cv.height;const g=c.getContext("2d");g.filter=f;g.drawImage(cv,0,0);return c}
 const embed=cv=>verifier.embedder.embed(cv).embeddings[0];
 const loadImg=url=>new Promise((ok,no)=>{const im=new Image();im.onload=()=>ok(im);im.onerror=no;im.src=url});
 async function refEmbeds(p){
   if(verifier.refs[p.id])return verifier.refs[p.id];
   const out=[];
-  for(const u of refList(p)){const im=await loadImg(u);views(toCanvas(im,im.naturalWidth,im.naturalHeight)).forEach(v=>out.push(embed(v)))}
+  for(const u of refList(p)){const im=await loadImg(u);const cv=toCanvas(im,im.naturalWidth,im.naturalHeight);
+    for(const f of REF_FILTERS)views(filtered(cv,f)).forEach(v=>out.push(embed(v)))}
   return verifier.refs[p.id]=out;
 }
-// 결과: {ok:true|false, score, skipped?}
+const verifiable=()=>PLACES.filter(p=>refList(p).length);
+// 카메라를 켤 때 미리 모든 장소의 기준 사진을 준비해 두면 판정이 빨라집니다
+function warmVerifier(){loadEmbedder().then(async()=>{for(const p of verifiable())await refEmbeds(p)}).catch(()=>{})}
+// 결과: {ok:true|false, score, other?, skipped?}
 async function verifyPlace(src,w,h){
   const p=P(ar.id);
   if(!refList(p).length)return {ok:true,skipped:"noref"};
   try{await loadEmbedder()}catch(e){console.warn("AI 모델 로드 실패",e);return {ok:true,skipped:"noai"}}
-  let refs;try{refs=await refEmbeds(p)}catch(e){console.warn("기준 사진 처리 실패",e);return {ok:true,skipped:"noai"}}
-  const shot=views(toCanvas(src,w,h)).map(embed);
-  let best=-1;for(const a of shot)for(const b of refs)best=Math.max(best,verifier.mp.ImageEmbedder.cosineSimilarity(a,b));
-  console.log(`[AR 인증] ${p.id} 유사도 ${best.toFixed(3)} (기준 ${MATCH_THRESHOLD})`);
-  return {ok:best>=MATCH_THRESHOLD,score:best};
+  const cs=verifier.mp.ImageEmbedder.cosineSimilarity;
+  const shot=shotViews(toCanvas(src,w,h)).map(embed);
+  const scores={};
+  try{for(const q of verifiable()){const refs=await refEmbeds(q);let m=-1;for(const a of shot)for(const b of refs)m=Math.max(m,cs(a,b));scores[q.id]=m}}
+  catch(e){console.warn("기준 사진 처리 실패",e);return {ok:true,skipped:"noai"}}
+  const score=scores[p.id];let other=null,otherScore=-1;
+  for(const id in scores)if(id!==p.id&&scores[id]>otherScore){otherScore=scores[id];other=id}
+  const ok=score>=MATCH_THRESHOLD&&score>=otherScore+MATCH_MARGIN;
+  console.log(`[AR 인증] ${p.id} 유사도 ${score.toFixed(3)} / 가장 비슷한 다른 장소 ${other} ${otherScore.toFixed(3)} (기준 ${MATCH_THRESHOLD}, 차이 ${MATCH_MARGIN}) → ${ok?"통과":"실패"}`);
+  // 다른 장소로 보이는 경우(그 장소 기준을 넘고 선택한 장소보다 더 비슷함) 그 이름을 알려줌
+  return {ok,score,other:(!ok&&other&&otherScore>=MATCH_THRESHOLD&&otherScore>score)?other:null};
 }
 function setBusy(b){["arShot","arCam"].forEach(id=>$(id).disabled=b);const lb=document.querySelector('label[for="arFile"]');if(lb)lb.style.pointerEvents=b?"none":"";$("arFile").disabled=b}
 async function checkAndShow(src,w,h){
   setBusy(true);$("arMsg").textContent=T("arChecking");
   let r;try{r=await verifyPlace(src,w,h)}finally{setBusy(false)}
   if(r.ok){showResult(composite(src,w,h));if(r.skipped==="noai")$("arMsg").textContent+=" "+T("arAiOff");return}
-  $("arMsg").textContent=T("arRetry",{name:L(P(ar.id).name)});toast(T("arRetryShort"));
+  $("arMsg").textContent=r.other?T("arWrongPlace",{other:L(P(r.other).name),name:L(P(ar.id).name)}):T("arRetry",{name:L(P(ar.id).name)});toast(T("arRetryShort"));
 }
-$("arCam").onclick=()=>{openCamera();loadEmbedder().catch(()=>{})};
+$("arCam").onclick=()=>{openCamera();warmVerifier()};
 $("arShot").onclick=()=>{const v=document.querySelector("#arStage video");if(!v||!v.videoWidth)return;
   // 판정 중 프레임이 바뀌지 않도록 현재 화면을 고정
   const f=document.createElement("canvas");f.width=v.videoWidth;f.height=v.videoHeight;f.getContext("2d").drawImage(v,0,0);checkAndShow(f,f.width,f.height)};
